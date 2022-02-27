@@ -10,11 +10,9 @@ I have a really cute cat though, so look out for her as well.
 <img float="right" src="images/cat.jpeg" width="100" height="100">
 
 # Projects
-
-
-
-
-
+{% for post in site.posts %}
+<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+{% endfor %}
 
 # Contact Me 
 <p><i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/william-ngo-a8a1871b8"> William Ngo</a></p>
