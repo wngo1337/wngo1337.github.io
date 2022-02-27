@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    
+    <title>William Ngo</title>
+    
+    
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>I Used An AI to Write Songs</title>
+        <description>
+          GPT-2 Model finetuned to sound like the Jonas Brothers - 
+          Generative Pre-trained Transformer 2 (GPT-2) is an open-source artificial intelligence created by OpenAI in February 2019. GPT-2 can generate text outputs that sound human! GPT-2 was pretrained on general data from the internet and was done so to model the general distribution of human language from the internet. One of...
+        </description>
+        <pubDate>Sun, 27 Feb 2022 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2022-02-27-An-AI-Wrote-Songs-For-Me/</link>
+        <guid isPermaLink="true">http://localhost:4000/2022-02-27-An-AI-Wrote-Songs-For-Me/</guid>
+      </item>
+    
+      <item>
+        <title>Neoquest Bot</title>
+        <description>
+          An Automated Neoquest Player - 
+          Neoquest Bot - A (Mostly) Automated Neoquest Player Neoquest Auto is a simple-to-use program built with Python and Selenium that helps users to easily complete the game and get the game trophies by automating the majority of gameplay including map movement, grinding, and weapon upgrades, taking the player all the...
+        </description>
+        <pubDate>Mon, 10 Jan 2022 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2022-01-10-Neoquest-Auto/</link>
+        <guid isPermaLink="true">http://localhost:4000/2022-01-10-Neoquest-Auto/</guid>
+      </item>
+    
+  </channel>
+</rss>
