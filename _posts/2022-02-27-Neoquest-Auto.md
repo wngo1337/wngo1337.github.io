@@ -23,9 +23,7 @@ This may change in the future, but make sure you can run each function to comple
 ### Prerequisites
 
 Python 3 or higher - [You can get it from here](https://www.python.org/downloads/)
-
 Google Chrome Browser - [You can get it from here](https://www.google.com/intl/en_ca/chrome/)
-
 Adblock for Chrome - [You can get it from here](https://chrome.google.com/webstore/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom)
 
 This program has only been tested for Windows.

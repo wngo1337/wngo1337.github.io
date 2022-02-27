@@ -11,9 +11,4 @@ things, though mostly about my experiences while programming.
 
 I have a really cute cat though, so look out for her as well.
 
-<img float="right" src="images/cat.jpeg" width="100" height="100">
-
-# Contact Me 
-<p><i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/william-ngo-a8a1871b8"> William Ngo</a></p>
-<p><i class="fab fa-github"></i><a href="https://github.com/wngo1337"> wngo1337</a></p>
-
+<img float="right" src="/images/cat.jpeg" width="100" height="100">
