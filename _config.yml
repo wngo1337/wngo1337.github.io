@@ -4,7 +4,7 @@
 # the initial set up you won't need to come back to this file often.
 
 # --- Required options --- #
-
+remote_theme: daattali/beautiful-jekyll
 # Name of website
 title: William Ngo
 
