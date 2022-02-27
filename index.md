@@ -17,6 +17,6 @@ I have a really cute cat though, so look out for her as well.
 
 
 # Contact Me 
-<i class="fab fa-linkedin-in"></i> William Ngo</br>
-<i class="fab fa-github"></i>wngo1337</br>
+<p><i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/william-ngo-a8a1871b8"> William Ngo</a></p>
+<p><i class="fab fa-github"></i> wngo1337</p>
 
