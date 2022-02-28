@@ -9,13 +9,13 @@
 
   
 
-  <title>Neoquest Bot</title>
+  <title>I Used An AI to Write Songs</title>
 
   
   <meta name="author" content="William Ngo">
   
 
-  <meta name="description" content="An Automated Neoquest Player">
+  <meta name="description" content="GPT-2 Model finetuned to sound like the Jonas Brothers">
 
   
 
@@ -74,19 +74,19 @@
 
   
   <meta property="og:site_name" content="William Ngo">
-  <meta property="og:title" content="Neoquest Bot">
-  <meta property="og:description" content="An Automated Neoquest Player">
+  <meta property="og:title" content="I Used An AI to Write Songs">
+  <meta property="og:description" content="GPT-2 Model finetuned to sound like the Jonas Brothers">
 
   
-  <meta property="og:image" content="http://localhost:4000/assets/img/path.jpg">
+  <meta property="og:image" content="http://localhost:4000/assets/img/gpt2.jpeg">
   
 
   
   <meta property="og:type" content="article">
   <meta property="og:article:author" content="William Ngo">
-  <meta property="og:article:published_time" content="2022-01-10T00:00:00-05:00">
-  <meta property="og:url" content="http://localhost:4000/2022-01-10-Neoquest-Auto/">
-  <link rel="canonical" href="http://localhost:4000/2022-01-10-Neoquest-Auto/">
+  <meta property="og:article:published_time" content="2022-02-27T00:00:00-05:00">
+  <meta property="og:url" content="http://localhost:4000/2022-02-27-An-AI-Wrote-Songs-For-Me/">
+  <link rel="canonical" href="http://localhost:4000/2022-02-27-An-AI-Wrote-Songs-For-Me/">
   
 
   
@@ -95,11 +95,11 @@
   <meta name="twitter:site" content="@">
   <meta name="twitter:creator" content="@">
 
-  <meta property="twitter:title" content="Neoquest Bot">
-  <meta property="twitter:description" content="An Automated Neoquest Player">
+  <meta property="twitter:title" content="I Used An AI to Write Songs">
+  <meta property="twitter:description" content="GPT-2 Model finetuned to sound like the Jonas Brothers">
 
   
-  <meta name="twitter:image" content="http://localhost:4000/assets/img/path.jpg">
+  <meta name="twitter:image" content="http://localhost:4000/assets/img/gpt2.jpeg">
   
 
   
@@ -225,7 +225,7 @@
     
     
       
-      data-img-src-1="http://localhost:4000/assets/img/path.jpg"
+      data-img-src-1="http://localhost:4000/assets/img/ibm.png"
     
     
     
@@ -239,15 +239,15 @@
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
         <div class="post-heading">
-          <h1>Neoquest Bot</h1>
+          <h1>I Used An AI to Write Songs</h1>
           
             
-              <h2 class="post-subheading">An Automated Neoquest Player</h2>
+              <h2 class="post-subheading">GPT-2 Model finetuned to sound like the Jonas Brothers</h2>
             
           
 
           
-            <span class="post-meta">Posted on January 10, 2022</span>
+            <span class="post-meta">Posted on February 27, 2022</span>
             
             
           
@@ -263,15 +263,15 @@
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
         <div class="post-heading">
-          <h1>Neoquest Bot</h1>
+          <h1>I Used An AI to Write Songs</h1>
           
             
-              <h2 class="post-subheading">An Automated Neoquest Player</h2>
+              <h2 class="post-subheading">GPT-2 Model finetuned to sound like the Jonas Brothers</h2>
             
           
 
           
-            <span class="post-meta">Posted on January 10, 2022</span>
+            <span class="post-meta">Posted on February 27, 2022</span>
             
             
           
@@ -295,105 +295,108 @@
       
 
       <article role="main" class="blog-post">
-        <h1 id="neoquest-bot---a-mostly-automated-neoquest-player">Neoquest Bot - A (Mostly) Automated Neoquest Player</h1>
+        <p>Generative Pre-trained Transformer 2 (GPT-2) is an open-source artificial intelligence created by OpenAI in February 2019. GPT-2 can generate text outputs that sound human! GPT-2 was pretrained on general data from the internet and was done so to model the general distribution of human language from the internet. One of way of extending the functionality of GPT-2 is to finetune the model using a more targeted dataset. By showing the model a more focused set of data, one can steer the model to generate text that models the finetune training data more closely.</p>
 
-<p><img src="/assets/img/ui.png" alt="UI" /></p>
+<p>This has numerous benefits, most notably allowing different groups to modify the behaviour of GPT-2 to adopt regional vernacular or industry-specific language without training a completely new model.</p>
 
-<p>Neoquest Auto is a simple-to-use program built with Python and Selenium that helps users to easily
+<p>Today, we’re gonna get it to write pop songs like the Jonas Brothers.</p>
+
+<!-- ![UI](/assets/img/ui.png) 
+
+Neoquest Auto is a simple-to-use program built with Python and Selenium that helps users to easily
 complete the game and get the game trophies by automating the majority of gameplay including map movement, grinding, 
 and weapon upgrades, taking the player all the way from the starting square to the final bosses.
 It follows a predefined completion strategy that has been tested and modified over multiple runs 
 (not tested on InSaNe mode). 
 The only user interaction required is choosing the corresponding program option to complete 
-each part of the game.</p>
+each part of the game.
 
-<p>As of now, the program does not keep track of game state on exit.
-This may change in the future, but make sure you can run each function to completion before starting.</p>
+As of now, the program does not keep track of game state on exit.
+This may change in the future, but make sure you can run each function to completion before starting.
 
-<h3 id="prerequisites">Prerequisites</h3>
+### Prerequisites
 
-<ul>
-  <li><a href="https://www.python.org/downloads/">Python 3</a></li>
-  <li><a href="https://www.google.com/intl/en_ca/chrome/">Google Chrome</a></li>
-  <li><a href="https://chrome.google.com/webstore/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom">Adblock for Chrome</a></li>
-</ul>
+- [Python 3](https://www.python.org/downloads/)
+- [Google Chrome](https://www.google.com/intl/en_ca/chrome/)
+- [Adblock for Chrome](https://chrome.google.com/webstore/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom)
 
-<p>This program has only been tested for Windows.</p>
+This program has only been tested for Windows.
 
-<h3 id="installing">Installing</h3>
+### Installing
 
-<p>to prepare the program’s starting point, login to Neopets and start a new Neoquest game. Once you see the following page, you are finished:</p>
+to prepare the program's starting point, login to Neopets and start a new Neoquest game. Once you see the following page, you are finished:
 
-<p><img src="/assets/img/skillscreen.jpeg" alt="Skillscreen" /></p>
+![Skillscreen](/assets/img/skillscreen.jpeg) 
 
-<p>After making a copy of this repository, open the folder in the terminal of your choice and create and activate your virtual environment (venv).</p>
+After making a copy of this repository, open the folder in the terminal of your choice and create and activate your virtual environment (venv). 
 
-<p><a href="https://docs.python.org/3/library/venv.html">Your virtual environment creation instructions</a> will differ based on what terminal you use.</p>
+[Your virtual environment creation instructions](https://docs.python.org/3/library/venv.html) will differ based on what terminal you use.
 
-<p>For example, Windows users using Powershell might perform the following commands:</p>
+For example, Windows users using Powershell might perform the following commands:
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>py -m venv venv
+```
+py -m venv venv
 
 venv/Scripts/Activate.ps1
-</code></pre></div></div>
+```
 
-<p>Once your venv is activated, use the following command to install the necessary requirements to 
-your venv:</p>
+Once your venv is activated, use the following command to install the necessary requirements to 
+your venv:
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip install -r requirements.txt
-</code></pre></div></div>
+```
+pip install -r requirements.txt
+```
 
-<p>The program is almost ready to run. There are two text files in the src/txtfiles folder named userinfo.txt and 
+The program is almost ready to run. There are two text files in the src/txtfiles folder named userinfo.txt and 
 adblockpath.txt. In userinfo.txt, enter your Neopets username on the first line of the file, 
-and your password on the second line.</p>
+and your password on the second line.
 
-<p><img src="/assets/img/userinfoexample.jpeg" alt="Userinfoexample" /></p>
+![Userinfoexample](/assets/img/userinfoexample.jpeg) 
 
-<p>The program can run without adblock enabled, but it will run slowly.
-For now, <a href="https://www.reddit.com/r/learnpython/comments/4zzn69/how_do_i_get_adblockplus_to_work_with_selenium/">consult this thread</a>
+The program can run without adblock enabled, but it will run slowly.
+For now, [consult this thread](https://www.reddit.com/r/learnpython/comments/4zzn69/how_do_i_get_adblockplus_to_work_with_selenium/)
 for instructions on how to find the path to your adblock extension folder. 
 Copy this folder path into adblockpath.txt.
-Below is an example of what the folder path could look like for a windows user:</p>
+Below is an example of what the folder path could look like for a windows user:
 
-<p><img src="/assets/img/extensionfolderexample.jpeg" alt="FolderPath" /></p>
+![FolderPath](/assets/img/extensionfolderexample.jpeg) 
 
-<p>Note: I have tried implementing an “Eager” pageLoadStrategy for the Selenium WebDriver, 
-and while it does speed up the program, it is still far slower than blocking ads altogether.</p>
+Note: I have tried implementing an "Eager" pageLoadStrategy for the Selenium WebDriver, 
+and while it does speed up the program, it is still far slower than blocking ads altogether.
 
-<p>Now, navigate to the src directory and run autoplayerlauncher.py to start the program:</p>
+Now, navigate to the src directory and run autoplayerlauncher.py to start the program:
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd src
+```
+cd src
 
 py ./autoplayerlauncher.py
-</code></pre></div></div>
+```
 
-<p>The program should now launch and present you the following interface:</p>
+The program should now launch and present you the following interface:
 
-<p><img src="/assets/img/programmenuexample.jpeg" alt="ProgramMenu" /></p>
+![ProgramMenu](/assets/img/programmenuexample.jpeg) 
 
-<p>At this point, simply make sure you are on the skill screen and enter 1 in the program.
-Below is a list of very rough completion times one can expect for each function:</p>
+At this point, simply make sure you are on the skill screen and enter 1 in the program.
+Below is a list of very rough completion times one can expect for each function:
 
-<p>Option 1: 20~ minutes</p>
+Option 1: 20~ minutes
 
-<p>Option 2: 50~ minutes</p>
+Option 2: 50~ minutes
 
-<p>Option 3: 3~ hours</p>
+Option 3: 3~ hours
 
-<p>Option 4: 3~ hours</p>
+Option 4: 3~ hours
 
-<p>Option 5: 1 hour 40~ minutes</p>
+Option 5: 1 hour 40~ minutes
 
-<p>Option 6: 55 minutes</p>
+Option 6: 55 minutes
 
-<p>Option 7 (end of game): 1 hour 20~ minutes</p>
+Option 7 (end of game): 1 hour 20~ minutes
 
-<h2 id="built-with">Built With</h2>
+## Built With
 
-<ul>
-  <li><a href="https://www.python.org">Python</a> - The programming language used</li>
-  <li><a href="https://www.selenium.dev">Selenium</a> - Used for automating browser navigation</li>
-</ul>
+* [Python](https://www.python.org) - The programming language used
+* [Selenium](https://www.selenium.dev) - Used for automating browser navigation -->
 
       </article>
 
@@ -401,11 +404,11 @@ Below is a list of very rough completion times one can expect for each function:
         <div class="blog-tags">
           <span>Tags:</span>
           
-            <a href="/tags#automation">automation</a>
+            <a href="/tags#machine learning">machine learning</a>
           
             <a href="/tags#python">python</a>
           
-            <a href="/tags#bot">bot</a>
+            <a href="/tags#tensorflow">tensorflow</a>
           
         </div>
       
@@ -423,10 +426,10 @@ Below is a list of very rough completion times one can expect for each function:
 
       <ul class="pagination blog-pager">
         
-        
-        <li class="page-item next">
-          <a class="page-link" href="/2022-02-27-An-AI-Wrote-Songs-For-Me/" data-toggle="tooltip" data-placement="top" title="I Used An AI to Write Songs">Next Post &rarr;</a>
+        <li class="page-item previous">
+          <a class="page-link" href="/2022-01-10-Neoquest-Auto/" data-toggle="tooltip" data-placement="top" title="Neoquest Bot">&larr; Previous Post</a>
         </li>
+        
         
       </ul>
       
