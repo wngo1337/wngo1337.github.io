@@ -1,13 +1,15 @@
 ---
 layout: post
-title: Neoquest Auto 
-subtitle: A (Mostly) Automated Neoquest Player
+title: Neoquest Bot 
+subtitle: An Automated Neoquest Player
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
 tags: [automation, python, bot]
 ---
-# Neoquest Auto - A (Mostly) Automated Neoquest Player
+# Neoquest Bot - A (Mostly) Automated Neoquest Player
+
+![UI]({{ "/assets/img/ui.png" | relative_url }}) 
 
 Neoquest Auto is a simple-to-use program built with Python and Selenium that helps users to easily
 complete the game and get the game trophies by automating the majority of gameplay including map movement, grinding, 
@@ -22,24 +24,21 @@ This may change in the future, but make sure you can run each function to comple
 
 ### Prerequisites
 
-Python 3 or higher - [You can get it from here](https://www.python.org/downloads/)
-Google Chrome Browser - [You can get it from here](https://www.google.com/intl/en_ca/chrome/)
-Adblock for Chrome - [You can get it from here](https://chrome.google.com/webstore/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom)
+- [Python 3](https://www.python.org/downloads/)
+- [Google Chrome](https://www.google.com/intl/en_ca/chrome/)
+- [Adblock for Chrome](https://chrome.google.com/webstore/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom)
 
 This program has only been tested for Windows.
 
 ### Installing
 
-to prepare the program's starting point, login to Neopets and start a new Neoquest game. Once you see the following
-page, you are finished:
+to prepare the program's starting point, login to Neopets and start a new Neoquest game. Once you see the following page, you are finished:
 
-![Skillscreen](readmeresources/skillscreen.jpg)
+![Skillscreen]({{ "/assets/img/skillscreen.jpeg" | relative_url }}) 
 
-After making a copy of this repository, open the folder in the terminal of your choice and create and activate your
-virtual environment (venv). 
+After making a copy of this repository, open the folder in the terminal of your choice and create and activate your virtual environment (venv). 
 
-[Your virtual environment creation instructions](https://docs.python.org/3/library/venv.html) will differ based on
-what terminal you use.
+[Your virtual environment creation instructions](https://docs.python.org/3/library/venv.html) will differ based on what terminal you use.
 
 For example, Windows users using Powershell might perform the following commands:
 
@@ -60,7 +59,7 @@ The program is almost ready to run. There are two text files in the src/txtfiles
 adblockpath.txt. In userinfo.txt, enter your Neopets username on the first line of the file, 
 and your password on the second line.
 
-![Userinfoexample](readmeresources/userinfoexample.jpg)
+![Userinfoexample]({{ "/assets/img/userinfoexample.jpeg" | relative_url }}) 
 
 The program can run without adblock enabled, but it will run slowly.
 For now, [consult this thread](https://www.reddit.com/r/learnpython/comments/4zzn69/how_do_i_get_adblockplus_to_work_with_selenium/)
@@ -68,7 +67,7 @@ for instructions on how to find the path to your adblock extension folder.
 Copy this folder path into adblockpath.txt.
 Below is an example of what the folder path could look like for a windows user:
 
-![FolderPath](readmeresources/extensionfolderexample.jpg)
+![FolderPath]({{ "/assets/img/extensionfolderexample.jpeg" | relative_url }}) 
 
 Note: I have tried implementing an "Eager" pageLoadStrategy for the Selenium WebDriver, 
 and while it does speed up the program, it is still far slower than blocking ads altogether.
@@ -83,7 +82,7 @@ py ./autoplayerlauncher.py
 
 The program should now launch and present you the following interface:
 
-![ProgramMenu](readmeresources/programmenuexample.jpg)
+![ProgramMenu]({{ "/assets/img/programmenuexample.jpeg" | relative_url }}) 
 
 At this point, simply make sure you are on the skill screen and enter 1 in the program.
 Below is a list of very rough completion times one can expect for each function:

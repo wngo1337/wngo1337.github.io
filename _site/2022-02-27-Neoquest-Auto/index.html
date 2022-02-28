@@ -9,13 +9,13 @@
 
   
 
-  <title>Neoquest Auto</title>
+  <title>Neoquest Bot</title>
 
   
   <meta name="author" content="William Ngo">
   
 
-  <meta name="description" content="A (Mostly) Automated Neoquest Player">
+  <meta name="description" content="An Automated Neoquest Player">
 
   
 
@@ -74,8 +74,8 @@
 
   
   <meta property="og:site_name" content="William Ngo">
-  <meta property="og:title" content="Neoquest Auto">
-  <meta property="og:description" content="A (Mostly) Automated Neoquest Player">
+  <meta property="og:title" content="Neoquest Bot">
+  <meta property="og:description" content="An Automated Neoquest Player">
 
   
   <meta property="og:image" content="http://localhost:4000/assets/img/path.jpg">
@@ -95,8 +95,8 @@
   <meta name="twitter:site" content="@">
   <meta name="twitter:creator" content="@">
 
-  <meta property="twitter:title" content="Neoquest Auto">
-  <meta property="twitter:description" content="A (Mostly) Automated Neoquest Player">
+  <meta property="twitter:title" content="Neoquest Bot">
+  <meta property="twitter:description" content="An Automated Neoquest Player">
 
   
   <meta name="twitter:image" content="http://localhost:4000/assets/img/path.jpg">
@@ -124,7 +124,7 @@
   <div class="collapse navbar-collapse" id="main-navbar">
     <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="/aboutme">About Me</a>
+            <a class="nav-link" href="/aboutme">About</a>
           </li>
         <li class="nav-item">
           <a class="nav-link" id="nav-search-link" href="#" title="Search">
@@ -136,14 +136,6 @@
 
   
 
-  
-    <div class="avatar-container">
-      <div class="avatar-img-border">
-        <a href="http://localhost:4000/">
-          <img alt="Navigation bar avatar" class="avatar-img" src="/assets/img/avatar-icon.jpg" />
-        </a>
-      </div>
-    </div>
   
 
 </nav>
@@ -161,7 +153,7 @@
     var searchjson = '[ \
        \
         { \
-          "title"    : "Neoquest Auto", \
+          "title"    : "Neoquest Bot", \
           "category" : "automationpythonbot", \
           "url"      : "/2022-02-27-Neoquest-Auto/", \
           "date"     : "February 27, 2022" \
@@ -230,10 +222,10 @@
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
         <div class="post-heading">
-          <h1>Neoquest Auto</h1>
+          <h1>Neoquest Bot</h1>
           
             
-              <h2 class="post-subheading">A (Mostly) Automated Neoquest Player</h2>
+              <h2 class="post-subheading">An Automated Neoquest Player</h2>
             
           
 
@@ -254,10 +246,10 @@
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
         <div class="post-heading">
-          <h1>Neoquest Auto</h1>
+          <h1>Neoquest Bot</h1>
           
             
-              <h2 class="post-subheading">A (Mostly) Automated Neoquest Player</h2>
+              <h2 class="post-subheading">An Automated Neoquest Player</h2>
             
           
 
@@ -286,7 +278,9 @@
       
 
       <article role="main" class="blog-post">
-        <h1 id="neoquest-auto---a-mostly-automated-neoquest-player">Neoquest Auto - A (Mostly) Automated Neoquest Player</h1>
+        <h1 id="neoquest-bot---a-mostly-automated-neoquest-player">Neoquest Bot - A (Mostly) Automated Neoquest Player</h1>
+
+<p><img src="/assets/img/ui.png" alt="UI" /></p>
 
 <p>Neoquest Auto is a simple-to-use program built with Python and Selenium that helps users to easily
 complete the game and get the game trophies by automating the majority of gameplay including map movement, grinding, 
@@ -301,24 +295,23 @@ This may change in the future, but make sure you can run each function to comple
 
 <h3 id="prerequisites">Prerequisites</h3>
 
-<p>Python 3 or higher - <a href="https://www.python.org/downloads/">You can get it from here</a>
-Google Chrome Browser - <a href="https://www.google.com/intl/en_ca/chrome/">You can get it from here</a>
-Adblock for Chrome - <a href="https://chrome.google.com/webstore/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom">You can get it from here</a></p>
+<ul>
+  <li><a href="https://www.python.org/downloads/">Python 3</a></li>
+  <li><a href="https://www.google.com/intl/en_ca/chrome/">Google Chrome</a></li>
+  <li><a href="https://chrome.google.com/webstore/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom">Adblock for Chrome</a></li>
+</ul>
 
 <p>This program has only been tested for Windows.</p>
 
 <h3 id="installing">Installing</h3>
 
-<p>to prepare the program’s starting point, login to Neopets and start a new Neoquest game. Once you see the following
-page, you are finished:</p>
+<p>to prepare the program’s starting point, login to Neopets and start a new Neoquest game. Once you see the following page, you are finished:</p>
 
-<p><img src="readmeresources/skillscreen.jpg" alt="Skillscreen" /></p>
+<p><img src="/assets/img/skillscreen.jpeg" alt="Skillscreen" /></p>
 
-<p>After making a copy of this repository, open the folder in the terminal of your choice and create and activate your
-virtual environment (venv).</p>
+<p>After making a copy of this repository, open the folder in the terminal of your choice and create and activate your virtual environment (venv).</p>
 
-<p><a href="https://docs.python.org/3/library/venv.html">Your virtual environment creation instructions</a> will differ based on
-what terminal you use.</p>
+<p><a href="https://docs.python.org/3/library/venv.html">Your virtual environment creation instructions</a> will differ based on what terminal you use.</p>
 
 <p>For example, Windows users using Powershell might perform the following commands:</p>
 
@@ -337,7 +330,7 @@ your venv:</p>
 adblockpath.txt. In userinfo.txt, enter your Neopets username on the first line of the file, 
 and your password on the second line.</p>
 
-<p><img src="readmeresources/userinfoexample.jpg" alt="Userinfoexample" /></p>
+<p><img src="/assets/img/userinfoexample.jpeg" alt="Userinfoexample" /></p>
 
 <p>The program can run without adblock enabled, but it will run slowly.
 For now, <a href="https://www.reddit.com/r/learnpython/comments/4zzn69/how_do_i_get_adblockplus_to_work_with_selenium/">consult this thread</a>
@@ -345,7 +338,7 @@ for instructions on how to find the path to your adblock extension folder.
 Copy this folder path into adblockpath.txt.
 Below is an example of what the folder path could look like for a windows user:</p>
 
-<p><img src="readmeresources/extensionfolderexample.jpg" alt="FolderPath" /></p>
+<p><img src="/assets/img/extensionfolderexample.jpeg" alt="FolderPath" /></p>
 
 <p>Note: I have tried implementing an “Eager” pageLoadStrategy for the Selenium WebDriver, 
 and while it does speed up the program, it is still far slower than blocking ads altogether.</p>
@@ -359,7 +352,7 @@ py ./autoplayerlauncher.py
 
 <p>The program should now launch and present you the following interface:</p>
 
-<p><img src="readmeresources/programmenuexample.jpg" alt="ProgramMenu" /></p>
+<p><img src="/assets/img/programmenuexample.jpeg" alt="ProgramMenu" /></p>
 
 <p>At this point, simply make sure you are on the skill screen and enter 1 in the program.
 Below is a list of very rough completion times one can expect for each function:</p>
