@@ -11,4 +11,4 @@ things, mostly about my experiences while programming.
 In my spare time I enjoy blitz chess, drawing cartoon characters, and bubble tea. 
 I also have a really cute cat, so look out for her.
 
-<img float="right" src="/images/cat.jpeg" width="100" height="100">
+![cat](/assets/img/cat.jpg)
