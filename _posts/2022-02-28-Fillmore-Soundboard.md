@@ -2,7 +2,7 @@
 layout: post
 title: I Made a Virtual Soundboard Out of TV Show Lines
 subtitle: JavaFX Program With GUI to Activate Audio Clips
-cover-img: /assets/img/vallejo.jpeg
+cover-img: /assets/img/fillmore/vallejo.jpeg
 thumbnail-img: /assets/img/fillmore/fillmoreskate.jpeg
 share-img: /assets/img/fillmore/fillmoreskate.jpeg
 tags: [Java, JavaFX]
