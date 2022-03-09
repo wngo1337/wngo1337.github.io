@@ -26,8 +26,6 @@ Once the lyric data is cleaned, we load it into our notebook and can already sta
 
 Now all we have to do is make a barebones Flask app so that we can use our newly trained AI to generate lyrics on the web! You might have trouble finding a free host like I did though. Anyway, let's take a look at the results.
 
-(PUT COUPLE OF GENERATED IMAGES HERE)
-
 ![FirstTry]({{ "/assets/img/lyrics/lyrics1.jpg" | relative_url }})
 
 ![SecondTry]({{ "/assets/img/lyrics/lyrics2.jpg" | relative_url }})
