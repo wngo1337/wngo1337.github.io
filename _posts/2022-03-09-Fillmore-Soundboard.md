@@ -12,16 +12,24 @@ Hey guys, it's me again. Today we're going to be taking a look at a little proje
 
 If you aren't familiar with Fillmore!, you can read more about it [here](https://en.wikipedia.org/wiki/Fillmore!). At its core, the show is a child-friendly parody of police dramas from back in the day. It centres on former delinquent Cornelius Fillmore and his partner, Ingrid Third as they solve school "crimes." I liked watching it back in grade school but only really developed an appreciation for it when I got older. I recommend that you give it a shot if you have time.  
 
+|[FillmoreAndIngrid]({{ "/assets/img/fillmore/fillmoreandingrid.jpg" | relative_url }})|
+|:--:|
+| *The main protagonists of the show. They look pretty cool for 2002, no?* |
+
 So you might be thinking, "Why use JavaFX? No one builds desktop applications anymore." That's probably true, but at the same time it's great to have a GUI toolkit at your disposal for personal projects. Also, the practice with a tree structure in the form of JavaFX's scene graph isn't bad either.
 
 Anyway, my intention was to use Gluon's nifty drag and drop Scene Builder to build my user interface. It automatically creates FXML files based on your scene, and those can be read by your application to change what it displays, essentially implementing a model-view-controller architecture. 
 
 The only problem? I can't use Scene Builder here. Scene Builder is really great for complex, static layouts because it generates all the FXML for you, but it's less flexible because you have to manually specify what function each JavaFX node corresponds to. You can probably imagine how difficult it would be to create and manage functions for a large number of buttons. That means we have to do it the old-fashioned way and code our GUI in Java.
 
-Luckily, our application is quite small and simple so that isn't too difficult. We just create the root node which is the main container of the window we want to display, and then we can populate it with text, images and more. The main workhorse of this application is this method that accesses the files of a directory, creates buttons from them, and then adds them to a container. 
+Luckily, our application is quite small and simple so that isn't too difficult. We just create the root node which is the main container of the window we want to display, and then we can populate it with text, images and more. The main workhorse of this application is this method that accesses the files of a directory, creates buttons from them, and then adds them to a container. This is how it looks:
 
-(IMAGE HERE)
+[ButtonMakerMethod]({{ "/assets/img/fillmore/makebutton.jpg" | relative_url }})
 
-When we're done, the application looks like this.
+The rest is just setting up and creating other application panes and isn't that interesting. When we're done, the application looks like this:
 
-Whenever a button is clicked, it plays the corresponding sound clip. That's the entire program! I wasn't kidding when I said it was simple. 
+[AppImage]({{ "/assets/img/fillmore/soundboard.jpg" | relative_url }})
+
+Whenever a button is clicked, it plays the corresponding sound clip. That's the entire program! I wasn't kidding when I said it was simple. If I were to make adjustments in the future, maybe I'd allow users to sort sounds by episodes, but in retrospect, maybe not because the audio isn't distributed evenly. Some episodes would be near empty while others would be cluttered. I'd also have liked to add thumbnails, but that might clutter the screen. I know I've only scratched the surface of what JavaFX is capable of, but this is a good start. 
+
+See you all in the next post!

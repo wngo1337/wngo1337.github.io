@@ -14,9 +14,9 @@ This has numerous benefits, most notably allowing different groups to modify the
 
 Today, we're gonna get it to write pop songs like the Jonas Brothers.
 
-![JonasBrothers]({{ "/assets/img/lyrics/jonasbrothers.jpg" | relative_url }})
-
-You know these guys, right? Of course you do.
+|![JonasBrothers]({{ "/assets/img/lyrics/jonasbrothers.jpg" | relative_url }})|
+|:--:|
+|You know these guys, right? Of course you do.|
 
 To accomplish our task, we are going to use minimaxir's aitextgen package for Python. You can read more about it [here](https://github.com/minimaxir/aitextgen). It offers a variety of useful methods that abstract away the complexities of the process so that we can focus on generating new lyrics! We are also going to take advantage of Google Colab's free GPU access to speed up the training process.
 
