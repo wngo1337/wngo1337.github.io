@@ -12,7 +12,7 @@ Hey guys, it's me again. Today we're going to be taking a look at a little proje
 
 If you aren't familiar with Fillmore!, you can read more about it [here](https://en.wikipedia.org/wiki/Fillmore!). At its core, the show is a child-friendly parody of police dramas from back in the day. It centres on former delinquent Cornelius Fillmore and his partner, Ingrid Third as they solve school "crimes." I liked watching it back in grade school but only really developed an appreciation for it when I got older. I recommend that you give it a shot if you have time.  
 
-|[FillmoreAndIngrid]({{ "/assets/img/fillmore/fillmoreandingrid.jpg" | relative_url }})|
+|![FillmoreAndIngrid]({{ "/assets/img/fillmore/fillmoreandingrid.jpg" | relative_url }})|
 |:--:|
 | *The main protagonists of the show. They look pretty cool for 2002, no?* |
 
@@ -24,11 +24,11 @@ The only problem? I can't use Scene Builder here. Scene Builder is really great 
 
 Luckily, our application is quite small and simple so that isn't too difficult. We just create the root node which is the main container of the window we want to display, and then we can populate it with text, images and more. The main workhorse of this application is this method that accesses the files of a directory, creates buttons from them, and then adds them to a container. This is how it looks:
 
-[ButtonMakerMethod]({{ "/assets/img/fillmore/makebutton.jpg" | relative_url }})
+![ButtonMakerMethod]({{ "/assets/img/fillmore/makebutton.jpg" | relative_url }})
 
 The rest is just setting up and creating other application panes and isn't that interesting. When we're done, the application looks like this:
 
-[AppImage]({{ "/assets/img/fillmore/soundboard.jpg" | relative_url }})
+![AppImage]({{ "/assets/img/fillmore/soundboard.jpg" | relative_url }})
 
 Whenever a button is clicked, it plays the corresponding sound clip. That's the entire program! I wasn't kidding when I said it was simple. If I were to make adjustments in the future, maybe I'd allow users to sort sounds by episodes, but in retrospect, maybe not because the audio isn't distributed evenly. Some episodes would be near empty while others would be cluttered. I'd also have liked to add thumbnails, but that might clutter the screen. I know I've only scratched the surface of what JavaFX is capable of, but this is a good start. 
 
